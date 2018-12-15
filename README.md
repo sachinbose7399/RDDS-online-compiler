@@ -94,34 +94,28 @@ fnish for<\br>
 ![compiler2](https://user-images.githubusercontent.com/29707542/49634708-8b242000-fa23-11e8-9363-0aef06a62514.png)
 
 ### STEPS to run the program
-$ `sudo apt update`</br>
-$ `sudo apt install apache2`</br>
-$ `sudo apt-get install python3`<\br>
-$ `sudo systemctl stop apache2.service` </br>
-$ `sudo systemctl start apache2.service` </br>
-$ `sudo systemctl enable apache2.service` </br>
-$ `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-zip php7.2-curl`</br>
-Copy the HTML, PHP, CSS, input.txt and test.src file in /var/www/html/ and type the localhost/index1.php in browser.</br>
-Edit the Path of the file `compiler.py` in index1.php </br>
-if the program doesnot work then run $ `sudo chmod 777 *` in /var/www/html/ </br>
-if you wish to make RDDS as a command then open the bashrc file(sudo gedit ~/.bashrc) and write the command `alias RDDS ='python3 /home/raghav/Downloads/compiler/2compiler/compiler.py -o OUT'` in this you need to replace the path of compiler.py file.</br>
+$ `sudo apt update`
+
+$ `sudo apt install apache2`
+
+$ `sudo apt-get install python3`
+
+$ `sudo systemctl stop apache2.service` 
+
+$ `sudo systemctl start apache2.service`
+
+$ `sudo systemctl enable apache2.service` 
+
+$ `sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-zip php7.2-curl`
+
+Copy the HTML, PHP, CSS, input.txt and test.src file in /var/www/html/ and type the localhost/index1.php in browser.
+
+Edit the Path of the file `compiler.py` in index1.php
+
+if the program doesnot work then run $ `sudo chmod 777 *` in /var/www/html/ 
+
+if you wish to make RDDS as a command then open the bashrc file(sudo gedit ~/.bashrc) and write the command `alias RDDS ='python3 /home/raghav/Downloads/compiler/2compiler/compiler.py -o OUT'` in this you need to replace the path of compiler.py file.
+
 use the command `RDDS rdds_test/simple_add.src` and `./a.out` to see the output
 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sachinbose7399/RDDS-online-compiler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
